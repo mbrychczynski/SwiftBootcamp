@@ -11,6 +11,7 @@
 		FF384F162A7BE06500802BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F152A7BE06500802BCD /* ContentView.swift */; };
 		FF384F182A7BE06900802BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF384F172A7BE06900802BCD /* Assets.xcassets */; };
 		FF384F1B2A7BE06900802BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF384F1A2A7BE06900802BCD /* Preview Assets.xcassets */; };
+		FF384F232A7BE13500802BCD /* SwiftBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F222A7BE13500802BCD /* SwiftBasics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FF384F152A7BE06500802BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF384F172A7BE06900802BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF384F1A2A7BE06900802BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF384F222A7BE13500802BCD /* SwiftBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		FF384F122A7BE06500802BCD /* SwiftBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				FF384F212A7BE11D00802BCD /* SwiftBasics */,
 				FF384F132A7BE06500802BCD /* SwiftBootcampApp.swift */,
 				FF384F152A7BE06500802BCD /* ContentView.swift */,
 				FF384F172A7BE06900802BCD /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				FF384F1A2A7BE06900802BCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF384F212A7BE11D00802BCD /* SwiftBasics */ = {
+			isa = PBXGroup;
+			children = (
+				FF384F222A7BE13500802BCD /* SwiftBasics.swift */,
+			);
+			path = SwiftBasics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF384F162A7BE06500802BCD /* ContentView.swift in Sources */,
+				FF384F232A7BE13500802BCD /* SwiftBasics.swift in Sources */,
 				FF384F142A7BE06500802BCD /* SwiftBootcampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
