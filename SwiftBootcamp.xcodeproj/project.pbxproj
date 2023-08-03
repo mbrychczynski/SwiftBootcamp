@@ -16,6 +16,7 @@
 		FF384F272A7BE5F400802BCD /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F262A7BE5F400802BCD /* Variables.swift */; };
 		FF384F292A7BE80A00802BCD /* IfStatements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F282A7BE80A00802BCD /* IfStatements.swift */; };
 		FF384F2B2A7BFAEC00802BCD /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F2A2A7BFAEC00802BCD /* Functions.swift */; };
+		FF384F2D2A7C020200802BCD /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF384F2C2A7C020200802BCD /* Optionals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		FF384F262A7BE5F400802BCD /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		FF384F282A7BE80A00802BCD /* IfStatements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfStatements.swift; sourceTree = "<group>"; };
 		FF384F2A2A7BFAEC00802BCD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		FF384F2C2A7C020200802BCD /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				FF384F262A7BE5F400802BCD /* Variables.swift */,
 				FF384F282A7BE80A00802BCD /* IfStatements.swift */,
 				FF384F2A2A7BFAEC00802BCD /* Functions.swift */,
+				FF384F2C2A7C020200802BCD /* Optionals.swift */,
 			);
 			path = SwiftBasics;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				FF384F292A7BE80A00802BCD /* IfStatements.swift in Sources */,
 				FF384F162A7BE06500802BCD /* ContentView.swift in Sources */,
 				FF384F232A7BE13500802BCD /* SwiftBasics.swift in Sources */,
+				FF384F2D2A7C020200802BCD /* Optionals.swift in Sources */,
 				FF384F2B2A7BFAEC00802BCD /* Functions.swift in Sources */,
 				FF384F252A7BE2D000802BCD /* BasicTypes.swift in Sources */,
 				FF384F142A7BE06500802BCD /* SwiftBootcampApp.swift in Sources */,
