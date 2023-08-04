@@ -73,7 +73,7 @@ func getUserName() -> String {
 }
 
 func doSometing() -> String {
-    var title: String = "Avengers"
+    let title: String = "Avengers"
     
 //    if title is equal to Avengers
     if title == "Avengers" {
@@ -87,7 +87,7 @@ func doSometing() -> String {
 //
 
 func doSometingElse() -> String {
-    var title: String = "Avengers"
+    let title: String = "Avengers"
     
 //    make sure title is equal to Avengers else something
     guard title == "Avengers" else {

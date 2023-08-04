@@ -15,6 +15,8 @@ import Foundation
  */
 
 
+// -------------------------------------------------
+
 // Thre is always a value and it is a Bool
 let myBool: Bool = false
 
@@ -77,4 +79,42 @@ func checkIfAccountIsPremium5() -> Bool {
     }
     
     return accountIsPremium
+}
+
+
+// -------------------------------------------------
+
+var userIsNew: Bool? = true
+var userDidCompleteOnboarding: Bool? = false
+var userFavoriteMovie: String? = nil
+
+func checkIfUserIsSetUp() -> Bool {
+    if let isNew = userIsNew, let didCompleteOnboarding = userDidCompleteOnboarding, let favoriteMovie = userFavoriteMovie {
+        // userIsNew == Bool AND
+        // didCompleteOnboarding == Bool AND
+        // userFavoriteMovie == String
+        return getUserStatus(userIsNew: isNew, userDidCompleteOnboarding: didCompleteOnboarding, userFavoriteMovie: favoriteMovie)
+    } else {
+//        userIsNew == nil OR
+//        userDidCompleteOnboarding == nil OR
+//        userFavoriteMovie == nil
+        return false
+    }
+}
+
+func getUserStatus(userIsNew: Bool, userDidCompleteOnboarding: Bool, userFavoriteMovie: String) -> Bool {
+    if userIsNew && userDidCompleteOnboarding {
+        true
+    }
+    
+    return false
+}
+
+
+func checkIfUserIsSetUp2() -> Bool {
+    guard let userIsNew, let userDidCompleteOnboarding, let userFavoriteMovie else {
+        return false
+    }
+    
+    return getUserStatus(userIsNew: userIsNew, userDidCompleteOnboarding: userDidCompleteOnboarding, userFavoriteMovie: userFavoriteMovie)
 }
